@@ -1,5 +1,13 @@
 # Predict Future Sales Model Card
 
+### Basic Information
+
+* **Group member names and emails**: Andrew Cheon , `andrewcheon@gwu.edu`
+* **Model date**: November, 2025
+* **Model version**: 1.0
+* **License**: MIT
+* **Model implementation code**: ex) [DNSC_6301_Example_Project.ipynb](https://github.com/jphall663/GWU_DNSC_6301_project/blob/main/DNSC_6301_Example_Project.ipynb)
+
 <!--
 **Acheon-stst/Acheon-stst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
