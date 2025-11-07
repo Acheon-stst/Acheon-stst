@@ -12,7 +12,10 @@
 * **Primary intended users**:
 * **Out-of-scope use cases**:
 
-
+### Training Data
+* Data dictionary:
+| Name | Modeling Role | Measurement Level | Description |
+| ---- | ------------- | ---------------- | ---------- |
 
 
 
