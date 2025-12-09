@@ -30,34 +30,27 @@
 | Item_cnt_month | target | float | Total number of sales (item_cnt_day aggregated monthly and capped at [0,20]) for a specific shop and item in the next month |
 | ID | ID | int | Unique (Shop, Item) tuple identifier within the test set |
 
-* Source of training data: Provided by Kaggle
-* How training data was divided into training and validation data:NOT SURE
-  - Training: All months from Jan 2013 to Sept 2015
-  - Validation: Oct 2015
-* Number of rows in training and validation data:
-  - Rows in training set: ~2.9 million
-  - Rows in validation set: ~214,000
+* Source of training data: Provided by Kaggle Competition [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview)
+* How training data was divided into training and validation data
+  - Training: All months from Jan 2013 to Sept 2015 (Months 0–32)
+  - Validation: Oct 2015 (month 33)
+* Number of rows in training and validation data (after monthly aggregation):
+  - Rows in training set: 1,577,593
+  - Rows in validation set: 31,531
  
 ### Test Data
-* Source of test data: Provided by Kaggle
-* Number of rows in test data: 214,200 rows
-* Differences in columns between training and test data: NOT SURE
-  - The training data contains daily sales (item_cnt_day) and price (item_price)
-  - The test data contains only the ID, shop_id, and item_id for the month to be predicted
-
+* Source of test data: Provided by Kaggle Competition [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview)
+* Number of rows in test data: 214,200 
+* Differences in columns between training and test data: 
+  - Test data does not include date, date_block_num, item_price
+  - Test data includes an ID column for submission mapping
+  
 ### Model Details
-* Columns used as inputs in the final model: NOT SURE
-  - date_block_num
-  - shop_id
-  - item_id
-  - item_category_id
-  - month_mean_sales
-  - shop_item_prev_month_sales
-  - shop_city
-  - shop_type
+* Columns used as inputs in the final model: 
+  - All engineered features including lagged sales, shop/item/category averages, long-term means, trend features, and calendar month.
 * Target column: item_cnt_month
-* Type of model: Gradient Boosted Decision Trees
-* Software used to implement the model: python, scikit-learn, XGBoost NOT SURE
+* Type of model: Gradient Boosted Decision Tree Regression (XGBoost)
+* Software used to implement the model: Python, XGBoost, Pandas, NumPy, Scikit-learn
 * Version of modeling software: scikit-learn 1.3+, XGBoost 1.7+, python 3.9+
 * Hyperparameters: NOT SURE
   - XGBRegressor(
