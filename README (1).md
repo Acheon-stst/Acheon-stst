@@ -78,9 +78,9 @@ Dataset
 | ------------- | ------------- | ------------ |
 | 1.435 | 5.085 | 1.276 |
 
-#### Feature Importance
+* Feature Importance
 
-![Feature Importance](feature_importance.png)
+  ![Feature Importance](feature_importance.png)
 
 
 ### Ethical Considerations
