@@ -5,7 +5,7 @@
 * **Model date**: November, 2025
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: ex) [DNSC_3288_Project.ipynb](https://colab.research.google.com/github/Acheon-stst/Acheon-stst/blob/main/DNSC3288.ipynb)
+* **Model implementation code**: [DNSC_3288_Project.ipynb](https://github.com/Acheon-stst/Acheon-stst/blob/main/DNSC3288.ipynb)
 
 ### Intended Use
 * **Primary intended uses**: The model is intended to forecast the total sales for every unique product and store combination for the next month (specifically, November 2015) based on historical daily sales data
