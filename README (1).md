@@ -78,6 +78,11 @@ Dataset
 | ------------- | ------------- | ------------ |
 | 1.435 | 5.085 | 1.276 |
 
+#### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+
 ### Ethical Considerations
 * Potential negative impacts
   - Math or software problems
