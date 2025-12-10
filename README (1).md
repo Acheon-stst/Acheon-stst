@@ -81,6 +81,13 @@ Dataset
 * Feature Importance
 
   ![Feature Importance](feature_importance.png)
+  Figure 1. XGBoost feature importance based on gain, highlighting the dominance
+  of lagged sales features.
+
+* Correlation Heatmap
+
+  ![Correlation Heatmap](correlation_heatmap.png)
+  Figure 2. Correlation heatmap of numeric engineered features.
 
 
 ### Ethical Considerations
