@@ -37,7 +37,7 @@
 * Number of rows in training and validation data (after monthly aggregation):
   - Rows in training set: 1,577,593
   - Rows in validation set: 31,531
-     - Oonly one month (October 2015) is held out to simulate real-world forecasting, so the validation set is intentionally smaller than the training set.
+     - Only one month (October 2015) is held out to simulate real-world forecasting, so the validation set is intentionally smaller than the training set.
  
 ### Test Data
 * Source of test data: Provided by Kaggle Competition [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview)
