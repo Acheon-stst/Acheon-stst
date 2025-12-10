@@ -42,7 +42,7 @@
 ### Test Data
 * Source of test data: Provided by Kaggle Competition [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview)
 * Number of rows in test data: 214,200 
-* Differences in columns between training and test data: 
+* Differences in columns between training and test data (before monthly aggregation): 
   - Test data does not include date, date_block_num, item_price, item_cnt_day
   - Test data includes an ID column for submission mapping
   
