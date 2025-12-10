@@ -67,13 +67,16 @@ XGBRegressor(
 )
 ```
 
-### Quantitative analysis NOT SURE IF THESE IS RIGHT
+### Quantitative analysis 
 * Models were assessed primarily with RMSE
+* All predictions are clipped to the range [0, 20].
+
+Dataset
  
 
 | Training RMSE | Validation RMSE | Test RMSE |
 | ------------- | ------------- | ------------ |
-| 0.94 | 1.12 | 1.1 |
+| 1.435 | 5.085 | 1.276 |
 
 ### Ethical Considerations
 * Potential negative impacts
