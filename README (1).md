@@ -53,6 +53,8 @@
 * Type of model: Gradient Boosted Decision Tree Regression (XGBoost)
 * Software used to implement the model: Python, XGBoost, Pandas, NumPy, Scikit-learn
 * Version of modeling software: Python 3.12.12, NumPy 2.0.2, Pandas 2.2.2, Scikit-learn 1.6.1, XGBoost: 3.1.2
+* **Hyperparameters or other settings of your model**: 
+```
 XGBRegressor(
     n_estimators=400,
     max_depth=10,
@@ -63,7 +65,7 @@ XGBRegressor(
     tree_method="hist",
     random_state=42
 )
-
+```
 
 ### Quantitative analysis NOT SURE IF THESE IS RIGHT
 * Models were assessed primarily with RMSE
