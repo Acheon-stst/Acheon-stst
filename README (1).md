@@ -81,6 +81,7 @@ Dataset
 * Feature Importance
 
   ![Feature Importance](feature_importance.png)
+  
   Figure 1. XGBoost feature importance based on gain, highlighting the dominance
   of lagged sales features.
 
