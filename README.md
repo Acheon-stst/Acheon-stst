@@ -23,12 +23,7 @@
 | Shop_id | input | int | Unique identifier of a shop |
 | Item_id  | input | int | Unique identifier of a product |
 | Item_price | input | float | Current price of an item |
-| Item_category_id | input | int | Category ID for each item |
-| Shop_city | input | string | Extracted city from shop name |
-| Shop_type | input | string | mall vs standalone, derived from shop name |
 | Item_cnt_day | input | float | Number of products sold on that day |
-| Item_cnt_month | target | float | Total number of sales (item_cnt_day aggregated monthly and capped at [0,20]) for a specific shop and item in the next month |
-| ID | ID | int | Unique (Shop, Item) tuple identifier within the test set |
 
 * Source of training data: Provided by Kaggle Competition [Predict Future Sales](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales/overview)
 * How training data was divided into training and validation data
