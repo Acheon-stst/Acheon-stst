@@ -49,6 +49,7 @@
 ### Model Details
 * Columns used as inputs in the final model: 
   - All engineered features including lagged sales, shop/item/category averages, long-term means, trend features, and calendar month.
+  - date_block_num, shop_id, item_id, item_category_id, item_cnt_month_lag_1, item_cnt_month_lag_2, item_cnt_month_lag_3, item_cnt_month_lag_6, item_cnt_month_lag_12, shop_avg_sales_lag_1, item_avg_sales_lag_1, category_avg_sales_lag_1
 * Target column: item_cnt_month
 * Type of model: Gradient Boosted Decision Tree Regression (XGBoost)
 * Software used to implement the model: Python, XGBoost, Pandas, NumPy, Scikit-learn
