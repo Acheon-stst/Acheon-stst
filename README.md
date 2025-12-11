@@ -88,6 +88,7 @@ Dataset
 * Correlation Heatmap
 
   ![Correlation Heatmap](correlation_heatmap.png)
+  
   Figure 2. Correlation heatmap of numeric engineered features.
 
 
