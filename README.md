@@ -76,7 +76,7 @@ Dataset
 
 | Training RMSE | Validation RMSE | Test RMSE |
 | ------------- | ------------- | ------------ |
-| 1.435 | 5.085 | 1.276 |
+| 1.435 | 2.206 | 1.276 |
 
 * Feature Importance
 
