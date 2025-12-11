@@ -18,7 +18,7 @@
  
 | Name | Modeling Role | Measurement Level | Description |
 | ------------- | ------------- | ------------ | ------------- |
-| Date  | Input | object | Day of purchase (DD.MM.YYYY) |
+| Date  | input | object | Day of purchase (DD.MM.YYYY) |
 | Date_block_num  | input | int | Month index starting at 0; represents time for forecasting |
 | Shop_id | input | int | Unique identifier of a shop |
 | Item_id  | input | int | Unique identifier of a product |
